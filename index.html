@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lefevre - Lab 5</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- JQuery and Slicknav -->
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+
+
+        <!-- External font stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav').slicknav({prependTo: "#mobile_menu"});
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <img class="banner" src="images/banner.png" alt="FOSS">
+            <h1>Free and Open Source Software (FOSS)</h1>
+            <h2>Altruism + Collaboration</h2>
+        </header>
+        <nav id="mobile_menu">
+        </nav>
+        <nav id="nav">
+            <ul>
+                <li class="current">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="examples.html">
+                        Examples	
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <aside>
+            <ul>
+                <li>
+                    <a href="https://fsf.org">
+                        The FSF
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linuxfoundation.org/">
+                        Linux Foundation
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.gnu.org/">
+                        The GNU Website
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">
+                        Wikipedia - FOSS
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section>
+            <h2>Why use FOSS?</h2>
+            <p>The internet as you know it would be impossible without free and open source software. The world's most critical infrastructure relies heavily on libre (another term for free and open) software. The large majority of top (non-Microsoft-owned) internet sites run on Linux. Most of the computers in the world, if we include phones, run Linux. FOSS software isn't just a name - it's a philosophy. You should have the right to know what programs are running on hardware you own. Furthermore, you should have the right to inspect those programs and modify them to your heart's content.</p>
+
+            <h3>How to get started with FOSS</h3>
+            <p>Getting started with FOSS can seem daunting - but you've already begun!! Many components of your operating system, your router, your ISP's routers, and the server giving you this web page are <strong>already</strong> using free and open source software. If you want to further your journey of liberation, why not try out one of many <strong><a href="https://distrowatch.com/">Linux distributions</a></strong>?</p>
+        </section>
+        <footer>
+            <p>&#169; 2017 Brendan Lefevre</p>
+        </footer>
+    </body>
+</html>
